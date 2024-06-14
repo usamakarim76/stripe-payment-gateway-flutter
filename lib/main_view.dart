@@ -16,7 +16,7 @@ class _MainViewState extends State<MainView> {
           child: Center(
         child: ElevatedButton(
           onPressed: () {},
-          child: const Text("Pay "),
+          child: const Text("Pay"),
         ),
       )),
     );
