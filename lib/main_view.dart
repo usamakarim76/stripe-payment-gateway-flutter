@@ -15,7 +15,9 @@ class _MainViewState extends State<MainView> {
       body: SafeArea(
           child: Center(
         child: ElevatedButton(
-          onPressed: () {},
+          onPressed: () {
+            print("object");
+          },
           child: const Text("Pay"),
         ),
       )),
